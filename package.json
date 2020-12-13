@@ -1,0 +1,18 @@
+{
+  "name": "hdr-tutorial",
+  "version": "1.0.0",
+  "description": "Recognizes handwritten digits through tensorflow model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sam1414",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

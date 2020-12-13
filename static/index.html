@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digit Recoognition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        #canvas {
+            border: 1px solid;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Digit Recognition App</h1>
+
+    <p id="prediction_text">Prediction: None</p>
+
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <br><br>
+    <button id="predict" type="button" class="btn btn-primary">Predict</button>
+    <br><br>
+    <button id="clear" type="button">Clear</button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="draw.js"></script>
+    <script src="predict.js"></script>
+  </body>
+</html>
